@@ -2234,7 +2234,7 @@ MonoBehaviour:
     countMany: {fileID: 2125981890}
   - upgradeCount: 0
     co2Impact: -42069
-    price: 1000
+    price: 600
     wealthPrSecond: 0
     name: Forest
     header: {fileID: 1411608146}

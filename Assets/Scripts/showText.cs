@@ -57,7 +57,7 @@ public class showText : MonoBehaviour
 
         if (hasHighScore())
         {
-            if (endTime < getHighScoreFloat() && (changeCondition == "lostCO2" || changeCondition == "outOfTime"))
+            if (endTime < getHighScoreFloat() && changeCondition == "wonWealth")
             {
                 saveHighScore(textTime, endTime);
                 highscoreText.text = "All time highscore: " + textTime;
